@@ -1,0 +1,60 @@
+.label {
+    -fx-font: 14px "Helvetica";
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+}
+
+.hbox {
+    -fx-background-color: #0071e3;
+}
+
+.hover-hbox:hover {
+    -fx-background-color: #0071e3;
+    -fx-cursor: hand;
+}
+
+.vbox {
+    -fx-background-color: white;
+}
+
+.menulabel {
+    -fx-font: 14px "Helvetica";
+    -fx-text-fill: black;
+    -fx-cursor: hand;  
+}
+
+.menulabel:hover {
+    -fx-text-fill: #0071e3;
+}
+
+.statuslabel {
+    -fx-font: 14px "Helvetica";
+    -fx-text-fill: white; 
+    -fx-cursor: default;
+}
+
+.statuslabel:hover {
+    -fx-font: 14px "Helvetica";
+    -fx-text-fill: white; 
+    -fx-cursor: default;
+}
+
+.table-view {
+    -fx-background-color: white;
+    -fx-border-color: lightgray;
+    -fx-font: 14px "Helvetica";
+}
+
+.table-view .column-header {
+    -fx-background-color: #0071e3;
+    -fx-border-color: c6c6c6;
+}
+
+.table-row-focused {
+    -fx-background-color: #0071e3;
+}
+
+.drop-down-arrow {
+    -fx-cursor: hand;
+}
+

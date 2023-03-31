@@ -1,0 +1,142 @@
+[
+  {
+    "firstName": "Juan",
+    "lastName": "Martinez",
+    "mathGrade": 92.02,
+    "scienceGrade": 97.44,
+    "englishGrade": 94.27
+  },
+  {
+    "firstName": "Melanie",
+    "lastName": "Estrada",
+    "mathGrade": 93.11,
+    "scienceGrade": 99.34,
+    "englishGrade": 91.09
+  },
+  {
+    "firstName": "Eros",
+    "lastName": "Loais",
+    "mathGrade": 87.64,
+    "scienceGrade": 100.00,
+    "englishGrade": 77.48
+  },
+  {
+    "firstName": "Michael",
+    "lastName": "Scofield",
+    "mathGrade": 95.87,
+    "scienceGrade": 91.75,
+    "englishGrade": 80.34
+  },
+  {
+    "firstName": "Jasmin",
+    "lastName": "Romero",
+    "mathGrade": 68.64,
+    "scienceGrade": 75.01,
+    "englishGrade": 99.18
+  },
+  {
+    "firstName": "Melissa",
+    "lastName": "Moreno",
+    "mathGrade": 91.51,
+    "scienceGrade": 60.84,
+    "englishGrade": 78.68
+  },
+  {
+    "firstName": "Jason",
+    "lastName": "Banger",
+    "mathGrade": 79.68,
+    "scienceGrade": 61.89,
+    "englishGrade": 97.24
+  },
+  {
+    "firstName": "Samantha",
+    "lastName": "Hill",
+    "mathGrade": 97.24,
+    "scienceGrade": 99.63,
+    "englishGrade": 99.21
+  },
+  {
+    "firstName": "Adriana",
+    "lastName": "Torres",
+    "mathGrade": 67.60,
+    "scienceGrade": 68.99,
+    "englishGrade": 85.34
+  },
+  {
+    "firstName": "Kimberly",
+    "lastName": "Carr",
+    "mathGrade": 67.93,
+    "scienceGrade": 93.22,
+    "englishGrade": 89.74
+  },
+  {
+    "firstName": "Travis",
+    "lastName": "Cooper",
+    "mathGrade": 85.75,
+    "scienceGrade": 96.34,
+    "englishGrade": 80.29
+  },
+  {
+    "firstName": "David",
+    "lastName": "Fletcher",
+    "mathGrade": 65.34,
+    "scienceGrade": 75.66,
+    "englishGrade": 88.56
+  },
+  {
+    "firstName": "Jordan",
+    "lastName": "Carter",
+    "mathGrade": 89.37,
+    "scienceGrade": 96.81,
+    "englishGrade": 98.34
+  },
+  {
+    "firstName": "Emily",
+    "lastName": "Castillo",
+    "mathGrade": 80.29,
+    "scienceGrade": 65.39,
+    "englishGrade": 75.66
+  },
+  {
+    "firstName": "Gary",
+    "lastName": "Winters",
+    "mathGrade": 88.56,
+    "scienceGrade": 89.37,
+    "englishGrade": 96.81
+  },
+  {
+    "firstName": "Erik",
+    "lastName": "Dean",
+    "mathGrade": 67.71,
+    "scienceGrade": 99.33,
+    "englishGrade": 93.77
+  },
+  {
+    "firstName": "Christopher",
+    "lastName": "Lowery",
+    "mathGrade": 90.53,
+    "scienceGrade": 85.93,
+    "englishGrade": 89.70
+  },
+  {
+    "firstName": "Alexa",
+    "lastName": "Ochoa",
+    "mathGrade": 85.94,
+    "scienceGrade": 71.83,
+    "englishGrade": 99.7
+  },
+  {
+    "firstName": "Tyler",
+    "lastName": "Kane",
+    "mathGrade": 76.02,
+    "scienceGrade": 96.6,
+    "englishGrade": 76.45
+  },
+  {
+    "firstName": "Kevin",
+    "lastName": "Parker",
+    "mathGrade": 63.00,
+    "scienceGrade": 62.56,
+    "englishGrade": 100.00
+  }
+]

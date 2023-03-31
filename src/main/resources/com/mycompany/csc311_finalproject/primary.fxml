@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="600.0" prefWidth="960.0" stylesheets="@styling.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.csc311_finalproject.PrimaryController">
+   <children>
+      <VBox alignment="CENTER" fillWidth="false" layoutY="60.0" prefHeight="542.0" prefWidth="960.0" spacing="20.0" AnchorPane.bottomAnchor="-1.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="59.0">
+         <children>
+            <TableView fx:id="studentTableView" focusTraversable="false" prefHeight="816.0" prefWidth="860.0">
+              <columns>
+                <TableColumn fx:id="firstNameColumn" prefWidth="143.0" text="First Name" />
+                <TableColumn fx:id="lastNameColumn" prefWidth="143.0" text="Last Name" />
+                  <TableColumn fx:id="mathGradeColumn" prefWidth="143.0" text="Math Grade" />
+                  <TableColumn fx:id="scienceGradeColumn" prefWidth="143.0" text="Science Grade" />
+                  <TableColumn fx:id="englishGradeColumn" prefWidth="143.0" text="English Grade" />
+                  <TableColumn fx:id="gpaColumn" prefWidth="143.0" text="GPA" />
+              </columns>
+            </TableView>
+         </children>
+         <padding>
+            <Insets bottom="50.0" left="50.0" right="50.0" top="50.0" />
+         </padding>
+      </VBox>
+      <VBox fx:id="optionsMenu" layoutY="-245.0" maxHeight="185.0" maxWidth="142.0" onMouseEntered="#openDropDownOptions" onMouseExited="#closeDropDownOptions" prefHeight="185.0" prefWidth="142.0" spacing="25.0" styleClass="vbox" AnchorPane.leftAnchor="0.0">
+         <children>
+            <Label fx:id="importJsonLabel" onMouseClicked="#importJson" styleClass="menulabel" text="Import JSON Data" />
+            <Label fx:id="readDatabaseLabel" onMouseClicked="#readDatabase" styleClass="menulabel" text="Read Database" />
+            <Label fx:id="exportJsonLabel" onMouseClicked="#exportJson" styleClass="menulabel" text="Export to JSON" />
+            <Label fx:id="scaleLabel" onMouseClicked="#changeScale" styleClass="menulabel" text="4.0 GPA Scale" />
+            <Label onMouseClicked="#exit" styleClass="menulabel" text="Exit" />
+         </children>
+         <padding>
+            <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+         </padding>
+         <effect>
+            <DropShadow />
+         </effect>
+      </VBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="60.0" prefWidth="960.0" styleClass="hbox" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox fx:id="hbox" alignment="CENTER_LEFT" maxHeight="60.0" maxWidth="480.0" onMouseEntered="#openDropDownOptions" onMouseExited="#closeDropDownOptions" prefHeight="60.0" prefWidth="91.0" spacing="3.0" styleClass="hover-hbox">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="60.0" prefWidth="87.0" text="Options" />
+                  <ImageView fx:id="dropDownArrowImageView" fitHeight="10.0" fitWidth="118.0" pickOnBounds="true" preserveRatio="true" styleClass="drop-down-arrow">
+                     <image>
+                        <Image url="@../../../../../../../../../Desktop/dropDownArrow.png" />
+                     </image>
+                  </ImageView>
+               </children>
+               <padding>
+                  <Insets left="15.0" />
+               </padding>
+            </HBox>
+            <HBox fx:id="hbox1" alignment="CENTER_RIGHT" maxHeight="60.0" maxWidth="879.0" prefHeight="60.0" prefWidth="879.0" spacing="200.0" styleClass="hbox">
+               <children>
+                  <Label fx:id="label" styleClass="statuslabel" />
+               </children>
+               <padding>
+                  <Insets right="15.0" />
+               </padding>
+            </HBox>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
